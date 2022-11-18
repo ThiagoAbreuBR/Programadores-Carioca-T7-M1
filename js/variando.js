@@ -1,0 +1,10 @@
+var cliente = "Alcides Garcia";
+var conta = 67768734;
+var saldo = 322.95;
+document.write("Cliente:" +cliente+ "<br>");
+document.write("Conta:" +conta+ "<br>");
+document.write("Saldo:" +saldo+ "<br>");
+var depósito = 50.00;
+soma = saldo+depósito;
+document.write("Novo depósito na conta:" +conta+ "<br>");
+document.write("Saldo:" +soma+ "<br>");

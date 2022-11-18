@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Permissões</title>
+</head>
+<body>
+ <script>
+    var idade = prompt("Qual é sua idade ?");
+    idade = parseInt(idade);
+    VerificarPermissoes();
+    function VerificarPermissoes() {
+    if ((idade >= 16) && (idade < 18)) {
+        document.write("Só pode votar");
+    } else if (idade >= 18) {
+        document.write("Pode votar e dirigir");
+    } else if (idade < 16) {
+        document.write("Não pode dirigir e votar");
+    }
+}
+ </script>
+</body>
+</html>

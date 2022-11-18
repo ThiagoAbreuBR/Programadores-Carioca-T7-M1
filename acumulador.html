@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acumulador</title>
+</head>
+
+<body>
+    <script>
+        tm = 0;
+        tf = 0;
+        tfsalario = 0;
+        tmsalario = 0;
+        cont = 1;
+        while (cont <= 5) {
+            var nome = prompt("Nome: ");
+            var sexo = prompt("Sexo: ");
+            var salario = prompt("Salario: ");
+            salario = parseFloat(salario);
+            if (sexo == "m") {
+                tm++ // (tm = tm+1)
+                tmsalario = tmsalario + salario; // Repetição com acumulador
+            } else if (sexo == "f") {
+                tf++ // (tf = tf+1)
+                tfsalario = tfsalario + salario; // Repetição com acumulador
+            }
+            cont++; // (cont = cont +1)
+        }
+        document.write("Total feminino: " + tf + "<br>");
+        document.write("Total salario feminino: " + tfsalario + "<br>");
+        document.write("Total masculino: " + tm + "<br>");
+        document.write("Total salario masculino: " + tmsalario + "<br>");
+
+    </script>
+</body>
+
+</html>

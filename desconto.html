@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentagem</title>
+</head>
+<body>
+    <script>
+    var valor = prompt("Valor:");
+    valor = parseFloat(valor);
+    if (valor>=100){
+    desconto = valor * 0.05;
+    } else {
+        desconto = valor * 0.03;
+    }
+    total = valor - desconto;
+    document.write("Desconto:" +desconto+ "<br>");
+    document.write("Total:"+ total);
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+</head>
+
+<body>
+    <script>
+        var testAlert = "Olá mundo";
+        alert(testAlert);
+        var nome = "Thiago";
+        var saudaçoes = "Seja Bem-vindo ";
+        document.write(saudaçoes += nome + "</br>");
+        document.write("Teste".charAt(3) + "</br>");
+        var palavra = "Teste";
+        document.write(palavra[3] + "</br>"); // [] Mostra a localização da letra no vetor (0,1,2,3...)
+        var palavra2 = "Teste";
+        document.write(palavra2.indexOf("t") + "</br>"); // indexOf: Diz a posição da letra em número
+        var palavra3 = "Teste";
+        document.write(palavra3.toUpperCase() + "<br>"); // Colocou com os dados da variável em maiúsculo
+        var palavra4 = "Teste"
+        document.write(palavra4.toLowerCase() + "</br>"); // Colocou todos os dados da variável em minusculo 
+        var frase = "Mergulhando em tecnologia";
+        document.write(frase.substr(0, 11) + "</br>");  // Mostra o número de letras até o valor que se programou
+        var frase2 = "Mergulho em tecnologia";
+        document.write(frase2.slice(0, 14) + "</br>"); //
+        var nome2 = "Thiago";
+        var comunicaçao = "Olá, sr. nomeusuario,"
+        document.write(comunicaçao.replace("nomeusuario", nome2) + "</br>"); // apaga parte da variavel escrita
+        var novaString = "Programe nas linguagens ";
+        document.write(novaString.concat("JavaScript,").concat("Python,").concat("e C#") + "/<br>"); // Adicionar mais informações e textos sem citar a variável
+        var linguagens = "JavaScript; Java;C#; C;C++";
+        var arrayLinguagens = linguagens.split(";"); // Remove as o termo citado e insere virgulas no local
+        document.write(arrayLinguagens + "</br>");
+        var login = "              thiagoabreusenac@gmail.com             ";
+        var loginSemEspaco = login.trim();  // Remove os espaços
+        document.write(loginSemEspaco + "<br>");
+        var thiago = "Thiago foi ao Senac";
+        document.write(thiago.charCodeAt(0));
+        document.write(thiago.charCodeAt(3));
+    </script>
+</body>
+</html>

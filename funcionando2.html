@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de rodagem</title>
+</head>
+
+<body>
+    <script>
+        var ql = prompt("Quantidade de litros de gasolina:");
+        var km = prompt("Kilometragem:");
+        ql = parseFloat(ql);
+        km = parseFloat(km);
+        abastecimento();
+        function abastecimento() {
+            pr = ql / km;
+            console.log(pr);
+            document.write("Previsão de rodagem:" +pr +("KM"));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+.logoprincipal{
+    text-align: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    text-align: center;
+    color: #FFF000;
+    background-color: #000000;
+}
+
+.adote {
+    background-color: #FFF000;
+    float: left;
+    width: 70%;
+}
+
+.home {
+    background-color: #808080;
+    float: left;
+    width: 10%;
+}
+
+.sobre {
+    background-color: #808080;
+    float: left;
+    width: 10%;
+}
+
+.contato {
+    background-color: #808080;
+    float: left;
+    width: 10%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF000;
+    font-size: 30px;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #FFF000;
+    padding: 14px 14px;
+    border: 1px solid #FFF000
+}
+
+.ong {
+    width: 100%;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dog1 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.dog2 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+
+}
+
+.dog3 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.cat1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.cat2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: #FFF000;
+    text-align: center;
+}
+
+.rodape {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2%;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    margin-top: 5%;
+}
